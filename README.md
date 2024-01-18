@@ -1,23 +1,45 @@
-## Internship Exercise 02 
-   # Case-sensitive Anagram Checker - Javascript - Jest Testing 
 
-## User Storie:
-      -- As a user, I want to check whether two given strings are composed of the same set of case-sensitive characters  and each character can only occur once, so that I can identify case-sensitive anagrams.
+# JestTesting
 
-## Test Cases explained through user stories: 
-   
-   TEST CASE I:
-          As a user, I want to verify that the function correctly identifies that "listen" and "silent" are not case-sensitive anagrams, so that I can ensure the anagram checker considers character cases.
+Case-sensitive Anagram Checker - Javascript - Jest Testing 
 
-   TEST CASE II: 
-         As a user, I want to validate that the function correctly identifies that "hello" and "world" are not case-sensitive anagrams, so that I can be confident in the accuracy of the anagram checker for different character sets.
-
-   TEST CASE III: 
-         As a user, I want to confirm that the function correctly determines that "Astronomer" and "Moon Starer" are not case-sensitive anagrams, so that I can rely on the anagram checker's sensitivity to different cases.
-
-   TEST CASE IV: 
-         As a user, I want to ensure that the function correctly identifies that "debit card" and "bad credit" are not case-sensitive anagrams, so that I can trust the anagram checker for multi-word phrases.
-
-   TEST CASE V: 
-         As a user, I want to verify that the function handles non-string inputs correctly and returns false when comparing the number 123 with the string "321", so that I can trust the anagram checker with different data types.
  
+
+
+## User Story:
+ "As a user, I want to check whether two given strings are composed of the same set of case-sensitive characters  and each character can only occur once, so that I can identify case-sensitive anagrams."
+## Test Cases:
+
+***Test Case 01***:
+
+&emsp;**Scenario**: Anagram checker considers character cases.  
+&emsp;**Input**: "listen" and "silent"  
+&emsp;**Expected Result**: The function should return true as the strings are case-sensitive anagrams.
+
+***Test Case 02***:
+
+&emsp;**Scenario**: Accuracy for different character sets.  
+&emsp;**Input**: "hello" and "world"  
+&emsp;**Expected Result**: The function should return false as the strings are not case-sensitive anagrams.
+
+***Test Case 03***:
+
+&emsp;**Scenario**: Sensitivity to different cases.  
+&emsp;**Input**: "Astronomer" and "Moon Starer"  
+&emsp;**Expected Result**: The function should return false as the strings are not case-sensitive anagrams.
+
+***Test Case 04***:
+
+&emsp;**Scenario**: Sensitivity to multi-word phrases.
+&emsp;**Input**: "debit card" and "bad credit" 
+&emsp;**Expected Result**: The function should return true as the strings are not case-sensitive anagrams.
+
+***Test Case 05***:
+
+&emsp;**Scenario**: Sensitivity to different data types.  
+&emsp;**Input**: 123 and "321"  
+&emsp;**Expected Result**: The function should return false as the input types are different (number and string).
+
+
+## Test Results Summary:
+
