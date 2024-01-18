@@ -31,7 +31,7 @@ Case-sensitive Anagram Checker - Javascript - Jest Testing
 ***Test Case 04***:
 
 &emsp;**Scenario**: Sensitivity to multi-word phrases.
-&emsp;**Input**: "debit card" and "bad credit" 
+&emsp;**Input**: "debit card" and "bad credit"  
 &emsp;**Expected Result**: The function should return true as the strings are not case-sensitive anagrams.
 
 ***Test Case 05***:
