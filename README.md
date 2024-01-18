@@ -43,3 +43,11 @@ Case-sensitive Anagram Checker - Javascript - Jest Testing
 
 ## Test Results Summary:
 
+| S.No 	| Test Method Name                     	| Test Description                                                                                                                     	| Input                          	| Expected Output 	| Actual Output 	|
+|------	|--------------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------	|-----------------	|---------------	|
+|   1  	| Basic Anagram Checker                	| Check whether two given strings are composed of the same set<br>of case-sensitive characters and each character can only occur once. 	| "listen" and "silent"          	| True            	| True          	|
+|   2  	| Different character sets accuracy    	| Check Anagram algorithm's accuracy over strings of different characters.                                                             	| "hello" and "world"            	| False           	| False         	|
+|   3  	| Sensitivity to different cases       	| Check Anagram algorithm's accuracy over strings of Upper and lower case-characters.                                                  	| "Astronomer" and "Moon Starer" 	| False           	| False         	|
+|   4  	| Multi-word phrases accuracy          	| Check Anagram algorithm's accuracy over multi-word strings.                                                                          	| "debit card" and "bad credit"  	| True            	| True          	|
+|   5  	| Sensitivity to different data types. 	| Check Anagram algorithm's sensitivity to strings of different data types(string, number).                                            	| 123 and "321"                  	| False           	| False         	|
+
